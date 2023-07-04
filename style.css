@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+fieldset {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #337ab7;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#area {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 5px;
+}
+
+#questionFormArea {
+  min-width: 400px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 15px;
+}
+#questionArea {
+  min-width: 400px;
+  border-radius: 10px;
+  padding: 15px;
+  height: 90vh;
+  overflow-y: scroll;
+}
+#questions {
+  width: 100%;
+  margin: 40px auto;
+}
+.question {
+  font-size: large;
+  font-weight: bold;
+}
+
+.options {
+  margin-top: -10px;
+}
+.options > li {
+  margin: 5px;
+}
